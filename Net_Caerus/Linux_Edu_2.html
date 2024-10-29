@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux</title>
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+
+<header>
+
+    <div class="container">
+
+        <nav class="navbar">
+
+            <a href="index.html">
+                <img src="./assets/images/011.svg" alt="SimpleBlog logo" width="150" class="logo-light">
+                <img src="./assets/images/002.svg" alt="SimpleBlog logo" width="150" class="logo-dark">
+            </a>
+
+            <div class="btn-group">
+
+                <button class="theme-btn theme-btn-mobile light">
+                    <ion-icon name="moon" class="moon"></ion-icon>
+                    <ion-icon name="sunny" class="sun"></ion-icon>
+                </button>
+
+                <button class="nav-menu-btn">
+                    <ion-icon name="menu-outline"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="flex-wrapper">
+
+                <ul class="desktop-nav">
+
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link">Linux Tool</a>
+                    </li>
+
+                    <li>
+                        <a href="edu.html" class="nav-link">Edu</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="nav-link">Login</a>
+                    </li>
+
+                    <li>
+                        <a href="terms%20and%20policy/About%20Net-Caerus.html" class="nav-link">About</a>
+                    </li>
+
+                </ul>
+
+                <button class="theme-btn theme-btn-desktop light">
+                    <ion-icon name="moon" class="moon"></ion-icon>
+                    <ion-icon name="sunny" class="sun"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="mobile-nav">
+
+                <button class="nav-close-btn">
+                    <ion-icon name="close-outline"></ion-icon>
+                </button>
+
+                <div class="wrapper">
+
+                    <p class="h3 nav-title">Main Menu</p>
+
+                    <ul>
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Linux Tool</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="edu.html" class="nav-link">Edu</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </div>
+
+</header>
+
+<main>
+
+    <div class="main">
+
+        <!--Post-->
+        <section class="post-header">
+            <div class="header-content post-container">
+                <!--Back to Home-->
+                <a href="index.html" class="back-home">Back To Home</a>
+                <!--title-->
+                <h1 class="header-title">Linux Fundamental</h1>
+                <!--post-image-->
+                <img src="assets/images/linux.png" alt="header-img">
+            </div>
+        </section>
+
+
+        <!--blog post-->
+        <section class="post-content post-container">
+            <h2 class="sub-heading">What is a “distribution?” </h2>
+            <p class="post-text">Linux has a number of different versions to suit any type of user. From new users to hard-core users, you’ll find a “flavor” of Linux to match your needs. These versions are called distributions (or, in the short form, “distros”). Nearly every distribution of Linux can be downloaded for free, burned onto disk (or USB thumb drive), and installed (on as many machines as you like).
+            </p>
+            <p class="post-text">Popular Linux distributions include:
+            </p>
+            <p class="post-text"><b>~ LINUX MINT<br>
+                ~ MANJARO<br>
+                ~ DEBIAN<br>
+                ~ UBUNTU<br>
+                ~ ANTERGOS<br>
+                ~ SOLUS<br>
+                ~ FEDORA<br>
+                ~ ELEMENTARY OS<br>
+                ~ OPENSUSE</b></p>
+            <p class="post-text">Each distribution has a different take on the desktop. Some opt for very modern user interfaces (such as GNOME and Elementary OS’s Pantheon), whereas others stick with a more traditional desktop environment (openSUSE uses KDE).
+                <br><br>You can check out the top 100 distributions on the <a href="https://distrowatch.com/"> Distrowatch.</a><br>
+                <br>And don’t think the server has been left behind. For this arena, you can turn to:</p>
+
+            <p class="post-text"><b>Red Hat Enterprise Linux<br>
+                Ubuntu Server<br>
+                Centos<br>
+                SUSE Enterprise Linux</b></p>
+            <p class="post-text">Some of the above server distributions are free (such as Ubuntu Server and CentOS) and some have an associated price (such as Red Hat Enterprise Linux and SUSE Enterprise Linux). Those with an associated price also include support.</p>
+          <h2 class="sub-heading">Which distribution is right for you?</h2>
+            <p class="post-text">Which distribution you use will depend on the answer to three simple questions:</p>
+            <p class="post-text">~ How skilled of a computer user are you?<br>
+                ~ Do you prefer a modern or a standard desktop interface?<br>
+                ~ Server or desktop?</p>
+          <p class="post-text">If your computer skills are fairly basic, you’ll want to stick with a newbie-friendly distribution such as Linux Mint, Ubuntu (Figure 3), Elementary OS or Deepin. If your skill set extends into the above-average range, you could go with a distribution like Debian or Fedora. If, however, you’ve pretty much mastered the craft of computer and system administration, use a distribution like Gentoo. If you really want a challenge, you can build your very own Linux distribution, with the help of Linux From Scratch.</p>
+            <p class="post-text">If you’re looking for a server-only distribution, you will also want to decide if you need a desktop interface, or if you want to do this via command-line only. The Ubuntu Server does not install a GUI interface. This means two things your server won’t be bogged down loading graphics and you’ll need to have a solid understanding of the Linux command line. However, you can install a GUI package on top of the Ubuntu Server with a single command like sudo apt-get install ubuntu-desktop. System administrators will also want to view a distribution with regards to features. Do you want a server-specific distribution that will offer you, out of the box, everything you need for your server? If so, CentOS might be the best choice. Or, do you want to take a desktop distribution and add the pieces as you need them? If so, Debian or Ubuntu Linux might serve you well.</p>
+            <h2 class="sub-heading">Installing Linux</h2>
+            <p class="post-text">For many, the thought of installing an operating system can feel overwhelming. However, Linux offers a surprisingly user-friendly experience. One of the standout features of many Linux distributions is the option to try out the operating system without any commitment. You can run it directly from a CD/DVD or USB flash drive, exploring all its features without touching your hard drive. If you decide it's the right fit, installation is just a few clicks away, guided by a simple and straightforward wizard.</p>
+            <p class="post-text">Typically, the installation wizards walk you through the process with the following steps (We’ll illustrate the installation of Ubuntu Linux): </p>
+            <p class="post-text"><b>Preparation:</b> Make sure your machine meets the requirements for installation. This also may ask you if you want to install third-party software (such as plugins for MP3 playback, video codecs, and more).
+
+                <br><b>Wireless setup (if necessary):</b>If you are using a laptop (or machine with wireless), you’ll need to connect to the network, in order to download third-party software and updates.
+
+                <br><b>Hard drive allocation (Figure 4):</b> This step allows you to select how you want the operating system to be installed. Are you going to install Linux alongside another operating system (called “dual booting”), use the entire hard drive, upgrade an existing Linux installation, or install over an existing version of Linux.
+
+                <br><b>Location:</b> Select your location from the map.
+                <br><b>Keyboard layout:</b> Select the keyboard for your system.
+
+                <br><b>User setup:</b> Set up your username and password.</p>
+            <p class="post-text">That’s it. Once the system has completed the installation, reboot and you’re ready to go. For a more in-depth guide to installing Linux, take a look at “How to Install and Try Linux the Absolutely Easiest and Safest Way” or download the Linux Foundation’s PDF guide for Linux installation.</p>
+            <h2 class="sub-heading">Installing software on Linux</h2>
+            <p class="post-text">Just like the operating system, installing applications on Linux is straightforward. Many modern Linux distributions come with their version of an app store, providing a centralized place to search for and install software. For instance, Ubuntu and several other distributions use GNOME Software, Elementary OS features the AppCenter, Deepin has its own Deepin Software Center, and openSUSE offers an AppStore. Some distributions also use Synaptic for package management, making software installation a breeze.</p>
+            <p class="post-text">Regardless of the name, each of these tools do the same thing: a central place to search for and install Linux software. Of course, these pieces of software depend upon the presence of a GUI. For GUI-less servers, you will have to depend upon the command-line interface for installation.</p>
+            <p class="post-text">Let’s look at two different tools to illustrate how easy even the command line installation can be. Our examples are for Debian-based distributions and Fedora-based distributions. The Debian-based distros will use the apt-get tool for installing software and Fedora-based distros will require the use of the yum tool. Both work very similarly. We’ll illustrate using the apt-get command. Let’s say you want to install the wget tool (which is a handy tool used to download files from the command line). To install this using apt-get, the command would like like this:</p>
+            <p class="post-text"><code>sudo apt-get install wget</code></p>
+            <p class="post-text">The sudo command is added because you need super user privileges in order to install software. Similarly, to install the same software on a Fedora-based distribution, you would first su to the super user (literally issue the command su and enter the root password), and issue this command:</p>
+            <p class="post-text"><code>yum install wget</code></p>
+            <p class="post-text">That’s all there is to installing software on a Linux machine. It’s not nearly as challenging as you might think. Still in doubt? Recall the Easy Lamp Server Installation from earlier. With a single command:</p>
+            <p class="post-text"><code>sudo taskel</code></p>
+            <p class="post-text">You can install a complete LAMP (Linux Apache MySQL PHP) server on either a server or desktop distribution. It really is that easy.</p>
+            <h2 class="sub-heading">More resources</h2>
+            <p class="post-text">If you’re looking for one of the most reliable, secure, and dependable platforms for both the desktop and the server, look no further than one of the many Linux distributions. With Linux you can assure your desktops will be free of trouble, your servers up, and your support requests minimal.</p>
+            <p class="post-text">For more information to help guide you through your lifetime with Linux, check out the following resources:</p>
+            <p class="post-text"><a href="https://www.linux.com/">Linux.com:</a> Everything you need to know about Linux (news, tutorials and more)</p>
+            <p class="post-text"><a href="https://www.howtoforge.com/">Howtoforge:</a> Linux tutorials</p>
+            <p class="post-text"><a href="http://www.tldp.org/">Linux Documentation Project:</a> How-tos, guides, and FAQs</p>
+            <p class="post-text"><a href="https://lwn.net/">LWN.net:</a> Linux kernel news and more</p>
+            <p class="post-text"><a href="./pdf/Linux_Commands.pdf">Download PDF: </a> All Linux Commands</p>
+        </section>
+
+        <!--share-->
+
+        <div class="share post-container">
+            <span class="share-title">Back</span>
+            <div class="social">
+                <a href="Linux%20Edu.html"><ion-icon name="arrow-back-outline"></ion-icon></ion-icon> </a>
+                <a href="#"><ion-icon name="ellipsis-horizontal-outline"></ion-icon></a>
+                <a href="#"><ion-icon name="arrow-forward-outline"></ion-icon> </a>
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+
+    <div class="container">
+
+        <div class="wrapper">
+
+            <a href="#" class="footer-logo">
+                <img src="./assets/images/011.svg" alt="SimpleBlog Logo" width="150" class="logo-light">
+                <img src="./assets/images/002.svg" alt="SimpleBlog Logo" width="150" class="logo-dark">
+            </a>
+
+            <p class="footer-text">
+                Join now with this design that can do more than just a network scanner.
+            </p>
+
+        </div>
+
+        <div class="wrapper">
+
+            <p class="footer-title">Quick Links</p>
+
+            <ul>
+
+                <li>
+                    <a href="terms%20and%20policy/Advertise%20with%20Us.html" class="footer-link">Advertise with us</a>
+                </li>
+
+                <li>
+                    <a href="#" class="footer-link">About Us</a>
+                </li>
+
+                <li>
+                    <a href="contact.html" class="footer-link">Contact Us</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+        <div class="wrapper">
+
+            <p class="footer-title">Legal Stuff</p>
+
+            <ul>
+
+                <li>
+                    <a href="terms%20and%20policy/Privacy%20Notice.html" class="footer-link">Privacy Notice</a>
+                </li>
+
+                <li>
+                    <a href="terms%20and%20policy/Cookie%20Policy.html" class="footer-link">Cookie Policy</a>
+                </li>
+
+                <li>
+                    <a href="terms%20and%20policy/Terms%20of%20Use.html" class="footer-link">Terms Of Use</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+    <p class="copyright">
+        &copy; Copyright 2024 <a href="#">Net-Caerus</a>
+    </p>
+
+</footer>
+
+
+<!--
+  - custom js link
+-->
+
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+</html>
+
+
+
+
